@@ -9,7 +9,7 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "cypress:record": "cypress run --record --key",
-    "test:e2e": "npm run build && start-server-and-test start http://localhost:8081 cypress:open"
+    "test:ci": "npm run build && start-server-and-test start http://localhost:8081 cypress:open"
   },
   "dependencies": {
     "todomvc-app-css": "2.3.0",
