@@ -59,7 +59,8 @@ describe('TodoMVC', function () {
     .type('learn testing{enter}')
     .type('be cool{enter}')
 
-    cy.get('.todo-list li').should('have.length', 2)
+    // cy.get('.todo-list li').should('have.length', 2)
+    cy.get('.todo-list li').should('have.length', 3)
   })
 
   context('No Todos', function () {
